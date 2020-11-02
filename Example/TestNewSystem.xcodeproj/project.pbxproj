@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		0CE549A2D44512E8D885D5E4 /* Pods-TestNewSystem_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNewSystem_Example.release.xcconfig"; path = "Target Support Files/Pods-TestNewSystem_Example/Pods-TestNewSystem_Example.release.xcconfig"; sourceTree = "<group>"; };
-		11F2E66C13431E6150F4BC98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		11F2E66C13431E6150F4BC98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		264C38EFD8CED7E65755CC02 /* Pods_TestNewSystem_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNewSystem_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TestNewSystem_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestNewSystem_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -63,9 +63,9 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9487D070F318EB8CB88B6EFA /* Pods-TestNewSystem_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNewSystem_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestNewSystem_Tests/Pods-TestNewSystem_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9594959C13EE30B6F606697E /* Pods-TestNewSystem_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNewSystem_Example.debug.xcconfig"; path = "Target Support Files/Pods-TestNewSystem_Example/Pods-TestNewSystem_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B339BE6DE97BC176DD1AD064 /* TestNewSystem.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestNewSystem.podspec; path = ../TestNewSystem.podspec; sourceTree = "<group>"; };
+		B339BE6DE97BC176DD1AD064 /* TestNewSystem.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestNewSystem.podspec; path = ../TestNewSystem.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C09E5FEA3600BEC7907A4838 /* Pods_TestNewSystem_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestNewSystem_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2D05A111637C66EAFF36D6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F2D05A111637C66EAFF36D6A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		FC6DFAB7FB5A6FDE1A697627 /* Pods-TestNewSystem_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestNewSystem_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestNewSystem_Tests/Pods-TestNewSystem_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +193,6 @@
 				9487D070F318EB8CB88B6EFA /* Pods-TestNewSystem_Tests.debug.xcconfig */,
 				FC6DFAB7FB5A6FDE1A697627 /* Pods-TestNewSystem_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

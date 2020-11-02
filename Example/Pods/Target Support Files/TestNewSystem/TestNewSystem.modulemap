@@ -1,0 +1,6 @@
+framework module TestNewSystem {
+  umbrella header "TestNewSystem-umbrella.h"
+
+  export *
+  module * { export * }
+}

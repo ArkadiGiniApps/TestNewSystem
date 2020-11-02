@@ -1,0 +1,16 @@
+PODS:
+  - TestNewSystem (0.1.0)
+
+DEPENDENCIES:
+  - TestNewSystem (from `../`)
+
+EXTERNAL SOURCES:
+  TestNewSystem:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestNewSystem: 5409934ce9470827611cf2b93c84da2e8183331e
+
+PODFILE CHECKSUM: 37712eb52eb92cf8d27c6a3a307fa4d3f1ad7ec2
+
+COCOAPODS: 1.9.3

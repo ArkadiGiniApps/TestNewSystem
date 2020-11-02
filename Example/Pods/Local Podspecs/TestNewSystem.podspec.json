@@ -1,0 +1,22 @@
+{
+  "name": "TestNewSystem",
+  "version": "0.1.0",
+  "summary": "A short description of TestNewSystem.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ArkadiGiniApps/TestNewSystem",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ArkadiGiniApps": "arkadiy@gini-apps.com"
+  },
+  "source": {
+    "git": "https://github.com/ArkadiGiniApps/TestNewSystem.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestNewSystem/Classes/**/*"
+}
