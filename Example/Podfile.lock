@@ -1,15 +1,42 @@
 PODS:
-  - TestNewSystem (0.1.0)
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - TestNewSystem (0.1.0):
+    - AFNetworking (~> 2.3)
 
 DEPENDENCIES:
   - TestNewSystem (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   TestNewSystem:
     :path: "../"
 
 SPEC CHECKSUMS:
-  TestNewSystem: 5409934ce9470827611cf2b93c84da2e8183331e
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
+  TestNewSystem: aaf54c799fb05df456d4d91212ae3ba197db4fa7
 
 PODFILE CHECKSUM: 37712eb52eb92cf8d27c6a3a307fa4d3f1ad7ec2
 
